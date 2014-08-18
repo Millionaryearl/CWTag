@@ -8,7 +8,7 @@ CWTag is delightful control library for IOS. It’s made up by a `TagContainer` 
 [![Platform](https://img.shields.io/cocoapods/p/CWTag.svg?style=flat)](http://cocoadocs.org/docsets/CWTag)
 
 ## Demo
-![BackgroundImage](https://raw2.github.com/Millionaryearl/CW2DTable/master/CWTag.gif)
+![BackgroundImage](https://raw2.github.com/Millionaryearl/CWTag/master/CWTag.gif)
 
 ## Usage
 
