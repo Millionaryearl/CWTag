@@ -1,0 +1,10 @@
+target 'CWTag', :exclusive => true do
+  pod "CWTag", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "CWTag", :path => "../"
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end
