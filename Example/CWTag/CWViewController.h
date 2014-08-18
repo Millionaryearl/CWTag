@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TagContainer.h>
 
-@interface CWViewController : UIViewController
+@interface CWViewController : UIViewController<TagContainerDataSource, TagContainerDelegate>
 
 @end

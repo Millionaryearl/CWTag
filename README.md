@@ -1,9 +1,14 @@
 # CWTag
 
+CWTag is delightful control library for IOS. It’s made up by a `TagContainer` and several `TagView`, by which user could display information array and enable customer edition interaction. Meanwhile, some delegate methods and one interaction timer are introduced to enable user to be aware of discrete or continuous custom actions. 
+
 [![CI Status](http://img.shields.io/travis/Millionaryearl/CWTag.svg?style=flat)](https://travis-ci.org/Millionaryearl/CWTag)
 [![Version](https://img.shields.io/cocoapods/v/CWTag.svg?style=flat)](http://cocoadocs.org/docsets/CWTag)
 [![License](https://img.shields.io/cocoapods/l/CWTag.svg?style=flat)](http://cocoadocs.org/docsets/CWTag)
 [![Platform](https://img.shields.io/cocoapods/p/CWTag.svg?style=flat)](http://cocoadocs.org/docsets/CWTag)
+
+## Demo
+![BackgroundImage](https://raw2.github.com/Millionaryearl/CW2DTable/master/CWTag.gif)
 
 ## Usage
 
