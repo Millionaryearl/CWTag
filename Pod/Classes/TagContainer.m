@@ -97,7 +97,7 @@
                 offset += mytag.frame.size.width;
                 offset += 1;
             }
-
+            [self removeGestureRecognizer:self.swipeGesture];
             
             break;
         }
