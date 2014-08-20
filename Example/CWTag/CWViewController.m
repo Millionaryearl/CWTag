@@ -107,7 +107,7 @@
 
 #pragma mark - Tags dataSource and delegate
 
-- (NSInteger)numberOfTags {
+- (NSInteger)numberOfTags:(TagContainer *)container {
     return [self.nameArr count];
     
 }

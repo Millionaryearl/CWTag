@@ -55,7 +55,7 @@
     //    [self layoutIfNeeded];
     [self cleanSubviews];
     
-    NSInteger tags = [self.containerDataSource numberOfTags];
+    NSInteger tags = [self.containerDataSource numberOfTags:self];
     CGFloat offset = self.contentInset.left + 1;
     switch (tagType){
         case FlexibleTypeTag:{

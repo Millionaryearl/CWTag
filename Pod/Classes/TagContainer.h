@@ -24,7 +24,7 @@ typedef NS_ENUM(NSInteger, SearchType)
 /*
  * the number of tags in container
  */
-- (NSInteger)numberOfTags;
+- (NSInteger)numberOfTags:(TagContainer *)container;
 
 /*
  * set the name of tag
@@ -66,6 +66,7 @@ typedef NS_ENUM(NSInteger, SearchType)
  *  mininum Tag size，decide whether auto resize tag size by autoResizeSubviews propterty
  */
 @property (nonatomic) CGSize tagSize;
+@property (nonatomic) NSInteger tag;
 
 - (void)reloadData: (NSInteger)tagType;
 
